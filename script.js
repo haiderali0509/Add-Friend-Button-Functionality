@@ -14,7 +14,8 @@ accepttext.addEventListener("click", () => {
     } else {
         accepttext.innerHTML = "Accept"
         isstatus = 0;
-        decline.style.display="block";
+        decline.style.display = "block";
+        requestdet.innerHTML="Requested to be Your Friend"
     }
 })
 declinetext.addEventListener("click", () => {
@@ -32,5 +33,6 @@ declinetext.addEventListener("click", () => {
         accepttext.style.display = "block";
         decline.style.borderBottom = "1px solid #c7c7c7";
         accept.style.padding = "1rem";
+        requestdet.innerHTML="Requested to be Your Friend"
     }
 })
