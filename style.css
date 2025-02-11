@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: sans-serif;
+    color: #3F3F3F;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    /* width: 100%; */
+    height: auto;
+    display: block;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 247, 247);
+    height: 100dvh;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* border: 1px solid; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+}
+.pfp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.connections, .profession{
+    color: #BBBBBB;
+}
+.details{
+    border-right: 1px solid #c7c7c7;
+    padding-right: 1rem;
+}
+.decline, .accept{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.decline{
+    color: #E3456A;
+    border-bottom: 1px solid #c7c7c7;
+}
+.accept{
+    color: #5976ED;
+}
